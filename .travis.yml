@@ -1,5 +1,6 @@
 language: c
 script:
   - cd hello
-  - ./configure && make
+  - make clean
+  - make all
   - ./hello
