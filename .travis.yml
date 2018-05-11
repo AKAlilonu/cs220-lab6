@@ -1,5 +1,5 @@
 language: c
-
-cd hello
-./configure && make
-./hello
+script:
+  - cd hello
+  - ./configure && make
+  - ./hello
